@@ -3,7 +3,7 @@ require_once('vendor/autoload.php');
 require_once('conf.php'); // ACCESS_KEY, SECRET_KEY, ASSOCIATE_TAGを定義
 
 const RETRY_COUNT = 5; // 試行回数
-const RETRY_SLEEP_SEC = 10; // 試行時の待ち時間(秒)
+const RETRY_SLEEP_SEC = 5; // 試行時の待ち時間(秒)
 
 const RESULT_ERROR_JSON = '{ "result": false }';
 
