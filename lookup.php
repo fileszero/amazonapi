@@ -97,6 +97,7 @@ function toJson($item) {
     "manufacturer" => (string) $item->ItemAttributes->Manufacturer,
     "item_url"=> (string) $item_url = $item->DetailPageURL,
     "image_url"=> (string) $item->MediumImage->URL,
+    "associate_id"=> (string) ASSOCIATE_TAG,
   );
 
   return json_encode($array);
