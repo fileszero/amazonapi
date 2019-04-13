@@ -1,0 +1,6 @@
+<?php
+
+// https://affiliate.amazon.co.jp/assoc_credentials/home
+const ACCESS_KEY='';
+const SECRET_KEY='';
+const ASSOCIATE_TAG='abcdef99-99';  //アソシエイトID
